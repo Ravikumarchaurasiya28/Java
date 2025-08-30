@@ -5,7 +5,7 @@ public class PalindromeString {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a String: ");
         String s = sc.nextLine();
-        if(isPalindrome(s)) System.out.println(s + " is Palindrome String.");
+        if(isPalindrome(s)) System.out.println(s + " is a Palindrome String.");
         else System.out.println(s + " is not a Palindrome String.");
     }
     private static boolean isPalindrome(String s) {
