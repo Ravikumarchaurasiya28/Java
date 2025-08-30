@@ -6,7 +6,7 @@ public class BinarySearch {
         System.out.print("Enter size of Array: ");
         int n = sc.nextInt();
         int[] nums = new int[n];
-        System.out.println("Enter Array to be sort: ");
+        System.out.println("Enter Sorted Array: ");
         for(int i = 0; i < n; i++) {
             nums[i] = sc.nextInt();
         }
