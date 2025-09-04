@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class TowerOfHanoi {
     public static void towerOfHanoi(int n, String src, String helper, String dest) {
         if(n == 1) {
@@ -9,6 +11,9 @@ public class TowerOfHanoi {
         towerOfHanoi(n - 1, helper, src, dest);
     }
     public static void main(String[] args) {
-        towerOfHanoi(4, "S", "H", "D");
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int n = sc.nextInt();
+        towerOfHanoi(n, "S", "H", "D");
     }
 }
