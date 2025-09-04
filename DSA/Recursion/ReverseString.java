@@ -9,7 +9,7 @@ public class ReverseString {
     }
     private static void reverse(String s, int idx) {
         if(idx == 0) {
-            System.out.print(s.charAt(idx));
+            System.out.println(s.charAt(idx));
             return;
         }
         System.out.print(s.charAt(idx));
