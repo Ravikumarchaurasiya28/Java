@@ -1,6 +1,5 @@
 class Pen {
-    String color;
-    String type;
+    String color, type;
     Pen(String color, String type) {
         this.color = color;
         this.type = type;
@@ -13,8 +12,7 @@ class Pen {
 }
 
 class Book {
-    String name;
-    String lang;
+    String name, lang;
     Book(String name, String lang) {
         this.name = name;
         this.lang = lang;
