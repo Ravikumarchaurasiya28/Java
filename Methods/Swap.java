@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 class Numbers {
     int x;
     Numbers(int x) {
@@ -9,10 +7,7 @@ class Numbers {
 
 public class Swap {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter two numbers: ");
-        int x = sc.nextInt();
-        int y = sc.nextInt();
+        int x = 4, y = 3;
         Numbers num1 = new Numbers(x);
         Numbers num2 = new Numbers(y);
         swap(num1, num2);

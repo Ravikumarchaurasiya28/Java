@@ -1,11 +1,6 @@
-import java.util.Scanner;
-
 public class NcrAndNpr {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the value of n & r :");
-        int n = sc.nextInt();
-        int r = sc.nextInt();
+        int n = 4, r = 3;
         System.out.println("NCR: " + nCr(n, r) + " & NPR : " + nPr(n, r));
     }
     private static int factoril(int n) {
