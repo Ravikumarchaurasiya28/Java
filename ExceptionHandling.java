@@ -1,6 +1,6 @@
 public class ExceptionHandling {
     public static void main(String[] args) {
-        int m = 5, n = 1;
+        int m = 5, n = 0;
         try {
             System.out.println(m + " Divided by " + n + " = " + (m / n));
         }
